@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input{
+    border: solid 1px black;
+    padding: 10px 20px;
+    background-color: #46a358;
+}
+.modal .text{
+    font-size: 30px;
+}
+button:hover{
+    background-color: aqua;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+.modal{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 52px;
+}
+.modal .title a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.modal .title span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    color: #46a358;
+    margin: 0 11px;
+}
