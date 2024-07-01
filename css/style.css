@@ -6,7 +6,7 @@
 input{
     border: solid 1px black;
     padding: 10px 20px;
-    background-color: #46a358;
+    background-color: chartreuse;
 }
 .modal .text{
     font-size: 30px;
@@ -21,6 +21,9 @@ button:hover{
     margin: auto;
     padding-top: 52px;
 }
+.modal{
+    text-align: center;
+}
 .modal .title a{
     font-weight: 500;
     font-size: 20px;
@@ -34,4 +37,7 @@ button:hover{
     line-height: 80%;
     color: #46a358;
     margin: 0 11px;
+}
+.title .green{
+    color: green;
 }
