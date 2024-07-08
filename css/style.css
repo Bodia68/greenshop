@@ -152,8 +152,11 @@ input{
 .container{
     max-width: 1200px;
     margin: auto;
+    border-bottom: solid 0.3px gray;
+    width: 1200px;
+    height: 53px;;
 }
-neader{
+header{
     padding-top: 31px;
 }
 .login_btn{
@@ -166,6 +169,7 @@ neader{
     font-size: 16px;
     color: #fff;
     align-items: center;
+    text-decoration: none;
 }
 header .container{
     display: flex;
@@ -176,12 +180,14 @@ header ul{
     display: flex;
     align-items: center;
 }
-ul li a{
-    margin-right: 50px;
+.List li{
+ margin-left: 50px;
+}
+.List a{
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-    text-decoration: none;
+   text-decoration: none;
 }
 .home:hover{
     color: black;
